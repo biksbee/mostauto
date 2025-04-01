@@ -1,0 +1,254 @@
+@media screen and (max-width: 1312px) {
+	.row {
+    display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.main-content-top,
+	.main-content-bottom {
+    display: block;
+		max-width: 80%;
+		margin: 0 auto;
+	}
+	.main-content-top div,
+	.main-content-bottom div{
+		margin: 0 0 50px 0;
+	}
+	.main-content-number {
+    font-size: 70px;
+    left: 30px;
+    top: 35px;
+    height: 56px;
+	}
+	.main-content-1, .main-content-2, .main-content-3, .main-content-4 {
+    padding: 35px 30px 30px 200px;
+	}
+	.tariffs-container-tittle {
+    text-align: center;
+	}
+	.delivery-right {
+		padding-right: 25px;
+		padding-left: 30px;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.main h1 {
+    margin: 50px auto 15px;
+    text-align: center;
+}
+	.delivery-steps {
+		margin: unset;
+		width: 100%;
+}
+
+	.delivery-container {
+  	background-color: #cad7f2;
+		background-image: unset;
+		justify-content: center;
+	}
+
+
+	.form_tittle {
+		margin: 50px 0 25px 0;
+    text-align: center;
+	}
+	.form-container {
+    background-color: #282C36;
+    padding: 25px 0;
+}
+
+	/*______________*/
+
+	.tariffs-1, .tariffs-2, .tariffs-3 {
+		margin-bottom: 50px;
+		width: 70%;
+	}
+	.delivery-steps1,.delivery-steps2 {
+    margin-left: unset!important;
+}
+	.delivery-steps3 {
+    margin-right: unset !important;
+	}
+	.contactUs {
+		padding-left: 25px;
+	}
+	.contactUs-info {
+		margin-right: 25px;
+	}
+	.delivery-left {
+    padding-left: 25px;
+	}
+	.delivery-right {
+    padding-right: 25px;
+}
+}
+@media screen and (max-width: 1024px) {
+	.header-menu {
+		width: 60%;
+	}
+	.delivery-steps div {
+    font-size: 75px;
+	}
+	.line.type-black {
+    width: 80%;
+    max-width: 300px;
+	}
+	.contactUs-info, .contactUs {
+		font-size: 22px;
+	}
+	.line.type-black {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.main-content-1, .main-content-2, .main-content-3, .main-content-4 {
+    padding: 35px 30px 30px 100px;
+	}
+	.delivery-block {
+    display: block;
+	}
+	.footer-container {
+    display: block;
+	}
+	.footer-right {
+    text-align: left;
+		max-width: unset;
+	}
+	.footerLogo {
+		display: none;
+	}
+	.contactUs-info, .contactUs {
+		font-size: 18px;
+	}
+	.contactUs-info {
+		padding: 10px;
+	}
+	.delivery-left {
+		padding: 0 5px;
+	}
+	.delivery-steps {
+		margin: 0;
+		width: 90%;
+		height: auto;
+	}
+	.delivery-right {
+		padding: 0 5px;
+	}
+}
+
+
+
+@media screen and (max-width: 576px) {
+	.header-menu {
+		width: 100%;
+	}
+	.header-description,
+	.headerLogo,
+	.headerMenu  {
+		margin: 10px auto;
+		text-align: center;
+	}
+	.main h1 {
+    margin: 50px auto 15px;
+    font-size: 36px;
+    text-align: center;
+}
+
+	.header-list {
+		padding: 90px 0 0 30px;
+	}
+	.main-content-1, .main-content-2, .main-content-3, .main-content-4 {
+    padding: 10px 0 10px 70px;
+		font-size: 20px;
+	}
+
+	.main-content-number {
+		font-size: 50px;
+		left: 15px;
+		top: 35px;
+		height: 42px;
+		width: 32px;
+	}
+	.tariffs-1 h2, .tariffs-2 h2, .tariffs-3 h2 {
+    padding-bottom: 15px;
+	}
+	.form-description-tittle {
+		font-size: 24px;
+		line-height: 32px;
+		text-align: center;
+		margin: unset;
+		padding: 0 25px;
+	}
+	footer h4 {
+		display: none;
+	}
+	.zak_pod {
+		margin-top: 10px;
+		padding: 10px;
+	}
+	.footer-left br {
+		display: none;
+	}
+	.footer-left div{
+		margin: 0;
+	}
+	.footer-right {
+		font-size: 15px;
+		line-height: 18px;
+	}
+	.footer-left {
+		margin-top: 50px;
+		font-size: 15px;
+	}
+	.input-group input {
+    margin: 10px 0;
+}
+	.contactUs-info, .contactUs {
+		font-size: 14px;
+	}
+	.contactUs-container {
+		margin: 0 auto;
+	}
+	.line.type-black {
+		display: none;
+	}
+	.navbar-tittle {
+    font-size: 14px;
+	}
+	.logo-navbar {
+    width: 70px;
+    height: auto;
+    margin: auto 40px auto 10px;
+	}
+	.navbar-tittle img {
+    width: 30px;
+    margin: auto 35px auto 10px;
+	}
+	.header-burger {
+    width: 20px;
+}
+	.navbar-left {
+    display: flex;
+    margin: auto 0;
+    font-size: 14px;
+	}
+	.line {
+    margin: auto 10px;
+}
+
+}
+@media screen and (max-width: 450px) {
+	.contactUs-info, .contactUs {
+			font-size: 10px;
+	}
+	.point {
+    margin: auto 5px auto 0;
+	}
+	.tariffs-1 h3, .tariffs-2 h3, .tariffs-3 h3 {
+    font-size: 28px;
+	}
+	.fake {
+		display: none;
+	}
+}
